@@ -52,6 +52,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
 
+   <!-- Maintainer -->
+    <Preference
+        android:key="Maintainer"
+        android:title="@string/maintainerlol"
+        android:summary="@string/maintainernamelol"
+        settings:enableCopying="true"/>
+
     <!-- Security patch -->
     <Preference
         android:key="security_key"
